@@ -1,3 +1,44 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-36
-#docs: 36 #processed: 0
+38
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111311215105.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:86 Errors=86 TableEmptyBodyCellError=86
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111311215105.pdf: >शासन निर्णय क्रमांक< >विविआ-२०२४/प्र.क्र.६२/प्रशासन-१<
+	elapsed_time:202403111311215105.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #49 Sentences: #70
+	[0]  #words: 122 #sentences: 53
+	After generate: 10 MB
+	[0]  #words: 258 #sentences: 51
+	After generate: 10 MB
+	[1]  #words: 270 #sentences: 19
+	After generate: 10 MB
+	[2]  #words: 85 #sentences: 3
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111540455105.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:4 Errors=4 TableEmptyBodyCellError=4
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111540455105.pdf: >शासन निर्णय क्रमांक< >सेवाप्र-२०२३/प्र.क्र.४२/कोषा प्रशा-३<
+	elapsed_time:202403111540455105.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #34 Sentences: #0
+	[0]  #words: 214 #sentences: 40
+	After generate: 10 MB
+  exec_task: text_writer 
+#docs: 38 #processed: 2
