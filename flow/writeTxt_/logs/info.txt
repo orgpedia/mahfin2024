@@ -1,3 +1,86 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-42
-#docs: 42 #processed: 0
+46
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151916411205.pdf: >शासन निर्णय क्रमांक< >विकवि-१०२२/प्र क्र.०८/वि.प्र.४<
+	elapsed_time:202403151916411205.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #56 Sentences: #0
+	[0]  #words: 259 #sentences: 64
+	After generate: 4 MB
+	[1]  #words: 262 #sentences: 22
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151928317305.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151928317305.pdf: Unable to find order
+	elapsed_time:202403151928317305.pdf: 0.000039
+  exec_task: doc_translator_hf 
+    Paras: #27 Sentences: #0
+	[0]  #words: 268 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 192 #sentences: 9
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403151928452505.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:27 Errors=27 TableEmptyBodyCellError=27
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151928452505.pdf: Unable to find order
+	elapsed_time:202403151928452505.pdf: 0.000049
+  exec_task: doc_translator_hf 
+    Paras: #121 Sentences: #381
+	[0]  #words: 260 #sentences: 171
+	After generate: 4 MB
+	[1]  #words: 169 #sentences: 47
+	After generate: 4 MB
+	[0]  #words: 261 #sentences: 66
+	After generate: 4 MB
+	[1]  #words: 260 #sentences: 30
+	After generate: 4 MB
+	[2]  #words: 263 #sentences: 23
+	After generate: 4 MB
+	[3]  #words: 262 #sentences: 21
+	After generate: 4 MB
+	[4]  #words: 249 #sentences: 18
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161506088905.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161506088905.pdf: Unable to find order
+	elapsed_time:202403161506088905.pdf: 0.000031
+  exec_task: doc_translator_hf 
+    Paras: #48 Sentences: #0
+	[0]  #words: 264 #sentences: 40
+	After generate: 4 MB
+	[1]  #words: 122 #sentences: 10
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 46 #processed: 4
