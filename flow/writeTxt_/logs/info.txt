@@ -1,3 +1,19 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-46
-#docs: 46 #processed: 0
+47
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 8: संकीर्ण-२०२४/प्र.क्र. ३८/अर्थसंकल्प-३ ==शासन परिपत्रक क्रमांक : संकीर्ण-२०२४/प्र.क्र. ३८/अर्थसंकल्प-३,
+	extract_order_number:202403201746065805.pdf: >शासन परिपत्रक क्रमांक< >संकीर्ण-२०२४/प्र.क्र. ३८/अर्थसंकल्प-३<
+	elapsed_time:202403201746065805.pdf: 0.000875
+  exec_task: doc_translator_hf 
+    Paras: #24 Sentences: #0
+	[0]  #words: 201 #sentences: 26
+	After generate: 2 MB
+  exec_task: text_writer 
+#docs: 47 #processed: 1
